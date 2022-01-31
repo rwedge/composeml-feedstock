@@ -31,10 +31,9 @@ test:
   imports:
     - composeml
   requires:
-    - pytest ==5.2.0
+    - pytest ==6.0.1
     - fastparquet ==0.5.0
-    - packaging ==20.4
-    - featuretools >=0.18.0,<1.0.0
+    - featuretools >=1.4.0
   source_files:
     - composeml/*
 
